@@ -1,0 +1,97 @@
+
+finance_report:
+  metadata:
+    title: "Finance Report Generator"
+    version: "1.0"
+    generated_on: "2026-01-28"
+    schema_source: "https://raw.githubusercontent.com/scienceMiner/bladeContext/main/finance-report.md"
+
+  asset_identification:
+    ticker: "VAPX"
+    exchange: "London Stock Exchange"
+    isin: "IE00B9F5YL18"
+    asset_type: "ETF"
+    base_currency: "GBP"
+    trading_currency: "GBP"
+    sector: "Equity - Developed Asia Pacific ex Japan"
+    region_exposure:
+      - Australia
+      - South Korea
+      - Hong Kong
+      - Singapore
+
+  market_overview:
+    current_price_gbp: 27.13
+    assets_under_management_gbp_millions: 1340
+    expense_ratio_percent: 0.15
+    pe_ratio: 15.77
+    dividend_yield_percent: 2.47
+    fifty_two_week_range_gbp:
+      low: 16.32
+      high: 27.37
+
+  performance_metrics:
+    total_return:
+      one_month_percent: 11.36
+      three_month_percent: 11.36
+      one_year_percent: 41.61
+      three_year_annualized_percent: 6.28
+      five_year_annualized_percent: 2.82
+    volatility: "Not available"
+    max_drawdown: "Not available"
+    sharpe_ratio: "Not available"
+    tracking_error: "Index tracking"
+
+  holdings_exposure:
+    number_of_holdings: 375
+    top_holdings:
+      - name: "Samsung Electronics"
+        weight_percent: 10.40
+      - name: "SK Hynix"
+        weight_percent: 6.50
+      - name: "Commonwealth Bank of Australia"
+        weight_percent: 4.75
+      - name: "BHP Group"
+        weight_percent: 3.95
+      - name: "AIA Group"
+        weight_percent: 2.87
+    geographic_allocation_percent:
+      Australia: 40
+      South_Korea: 38
+      Hong_Kong: 12
+      Others: 10
+
+  etf_structure:
+    replication_method: "Physical"
+    domicile: "Ireland"
+    distribution_policy: "Distributing"
+    index_provider: "FTSE Russell"
+    rebalancing_frequency: "Quarterly"
+
+  growth_prospects:
+    macro_drivers:
+      - "Economic growth in developed Asia Pacific markets"
+      - "Global semiconductor demand"
+    industry_drivers:
+      - "Banking sector expansion"
+      - "Technology innovation cycle"
+    risks:
+      - "Currency volatility"
+      - "Geopolitical tensions"
+      - "Global trade slowdown"
+    scenarios:
+      bull_case: "Sustained tech and financial growth"
+      base_case: "Stable market tracking index"
+      bear_case: "Economic downturn and trade disruption"
+
+  scoring_model:
+    growth_score: 7
+    risk_score: 6
+    valuation_score: 6
+    income_score: 7
+    diversification_score: 8
+    cost_efficiency_score: 8
+
+  summary:
+    executive_summary: "VAPX provides diversified low-cost exposure to developed Asia Pacific markets ex Japan."
+    investor_suitability: "Long-term ISA investors seeking regional diversification."
