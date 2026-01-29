@@ -18,7 +18,9 @@ Context-aware investment decisions with comprehensive risk/return frameworks
 Repository Structure
 text
 ├── templates/                    # Core template definitions
+
 │   ├── finance-report.md        # Main financial report specification
+
 │   ├── equity-context.md        # Equity-specific context templates
 │   ├── fixed-income-context.md  # Bond and fixed income templates
 │   └── portfolio-context.md     # Portfolio-level analysis templates
