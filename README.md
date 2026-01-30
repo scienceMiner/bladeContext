@@ -22,19 +22,30 @@ text
 │   ├── finance-report.md        # Main financial report specification
 
 │   ├── equity-context.md        # Equity-specific context templates
+
 │   ├── fixed-income-context.md  # Bond and fixed income templates
+
 │   └── portfolio-context.md     # Portfolio-level analysis templates
+
 │
+
 ├── examples/                    # Example implementations
+
 │   ├── VAPX-analysis.md        # Example ETF analysis using templates
-│   ├── AAPL-context.md         # Example equity context
-│   └── portfolio-example.md    # Sample portfolio context
+
 │
+
 ├── specifications/              # Detailed specifications
+
 │   ├── data-requirements.md    # Data sourcing and validation rules
+
 │   ├── metric-definitions.md   # Calculation methodologies
+
 │   └── scoring-models.md       # Comparative scoring frameworks
 │
 └── tools/                      # Utility tools and scripts
+
     ├── context-validator.py    # Template validation script
+    
     └── data-mapper.js          # Data to template mapping utility
+    
